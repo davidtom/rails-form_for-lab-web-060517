@@ -1,0 +1,9 @@
+<label>Class Title:</label>
+<%= @school_class.title %>
+<br>
+<label>Room:</label>
+<%= @school_class.room_number %>
+
+<form action= <%= edit_school_class_path(@school_class) %> method="get">
+  <input type="submit" value="Edit">
+</form>

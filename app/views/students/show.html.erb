@@ -1,0 +1,6 @@
+<label>Student Name:</label>
+<%= @student.to_s %>
+
+<form action= <%= edit_student_path(@student) %> method="get">
+  <input type="submit" value="Edit">
+</form>
